@@ -1,0 +1,20 @@
+/* Color de fondo del menú en MODO CLARO */
+.fi-sidebar-nav {
+    background-color: #3f70a2 !important; /* Un gris azulado claro muy elegante */
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Color de fondo del menú en MODO OSCURO */
+.dark .fi-sidebar-nav {
+    background-color: #0f172a !important; /* Un azul grisáceo oscuro profundo */
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Opcional: Cambiar el color de los títulos de las secciones del menú */
+.fi-sidebar-group-label {
+    color: #64748b !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+}
